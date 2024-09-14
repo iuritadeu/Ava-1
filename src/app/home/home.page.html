@@ -1,20 +1,27 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
+<ion-header>
+  <ion-toolbar class="toolbar">
+    <ion-title class="header-title">
+     AVA 1
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<ion-content class="main-content">
+  <ion-card class="profile-card">
+    <img src="assets/foto.perfil.jpg" alt="Foto de Perfil" class="profile-image"/>
+    <ion-card-header>
+      <ion-card-title class="profile-name">Iuri Tadeu dos Santos Assis Caetano</ion-card-title>
+      <ion-card-subtitle class="profile-code">Matrícula: 22206300</ion-card-subtitle>
+      <ion-card-subtitle class="profile-code">Turma: ADS0301N</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <strong>Curso: Análise e Desenvolvimento de Sistemas</strong>
+    </ion-card-content>
+  </ion-card>
+  <div class="unisuam-logo">
+    <img src="assets/logo_n.jpg" alt="Logo Unisuam" />
   </div>
 </ion-content>
+<ion-footer class="rodape">
+
+</ion-footer>
